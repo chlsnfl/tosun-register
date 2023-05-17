@@ -7,10 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<jsp:useBean id="ubean" class = "userdb.UserBean">
-	<jsp:setProperty name = "userdb" property = "*"  />  <!-- 매핑작업 -->
-</jsp:useBean>
-
+	<jsp:useBean id="mbean" class="boarddb.UserBean">
+		<jsp:setProperty name="mbean" property="*" /> <!-- 맵핑시키세요 -->
+	</jsp:useBean>
+	
+	
 	
 </body>
 </html>
